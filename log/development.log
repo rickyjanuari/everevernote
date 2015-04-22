@@ -3978,3 +3978,173 @@ SyntaxError (/home/rickyjanuari/rails/everevernote/app/views/notes/index.html.ha
   Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
   Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
   Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (84.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-22 14:52:44 +0700
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.haml within layouts/application (31.3ms)
+Completed 500 Internal Server Error in 37ms
+
+SyntaxError (/home/rickyjanuari/rails/everevernote/app/views/notes/index.html.haml:9: syntax error, unexpected ';', expecting ')'
+));}</p>\n      </div>\n    </a>\n", -2, false);end; else
+   ^
+/home/rickyjanuari/rails/everevernote/app/views/notes/index.html.haml:9: unknown regexp options - dv
+/home/rickyjanuari/rails/everevernote/app/views/notes/index.html.haml:9: syntax error, unexpected $undefined
+));}</p>\n      </div>\n    </a>\n", -2, false);end; else
+                       ^
+/home/rickyjanuari/rails/everevernote/app/views/notes/index.html.haml:10: unknown regexp option - h
+unmatched close parenthesis: /a>\n", -2, false);end; else
+_hamlout.push_text("    <h2>Add a note</
+/home/rickyjanuari/rails/everevernote/app/views/notes/index.html.haml:10: syntax error, unexpected tINTEGER, expecting tSTRING_DEND
+...sh_text("    <h2>Add a note</h2>\n    <p>No Notes Created ye...
+...                               ^
+/home/rickyjanuari/rails/everevernote/app/views/notes/index.html.haml:10: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...dd a note</h2>\n    <p>No Notes Created yet! Please Start cr...
+...                               ^
+/home/rickyjanuari/rails/everevernote/app/views/notes/index.html.haml:13: unknown regexp options - btt
+/home/rickyjanuari/rails/everevernote/app/views/notes/index.html.haml:13: syntax error, unexpected $undefined
+));}</button>\n", 0, false);end;_hamlout.pu...
+              ^
+/home/rickyjanuari/rails/everevernote/app/views/notes/index.html.haml:13: unknown regexp options - dv
+/home/rickyjanuari/rails/everevernote/app/views/notes/index.html.haml:13: syntax error, unexpected $undefined
+...ut.push_text("  </div>\n</div>\n", -2, false);::Haml::Util.h...
+...                               ^
+/home/rickyjanuari/rails/everevernote/app/views/notes/index.html.haml:13: unterminated string meets end of file
+/home/rickyjanuari/rails/everevernote/app/views/notes/index.html.haml:13: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  app/views/notes/index.html.haml:9: syntax error, unexpected ';', expecting ')'
+  app/views/notes/index.html.haml:9: unknown regexp options - dv
+  app/views/notes/index.html.haml:9: syntax error, unexpected $undefined
+  app/views/notes/index.html.haml:10: unknown regexp option - h
+  app/views/notes/index.html.haml:10: syntax error, unexpected tINTEGER, expecting tSTRING_DEND
+  app/views/notes/index.html.haml:10: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/notes/index.html.haml:13: unknown regexp options - btt
+  app/views/notes/index.html.haml:13: syntax error, unexpected $undefined
+  app/views/notes/index.html.haml:13: unknown regexp options - dv
+  app/views/notes/index.html.haml:13: syntax error, unexpected $undefined
+  app/views/notes/index.html.haml:13: unterminated string meets end of file
+  app/views/notes/index.html.haml:13: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+
+
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.2ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.6ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.4ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (38.1ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (93.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-22 14:52:59 +0700
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Processing by NotesController#index as HTML
+  [1m[35mNote Load (0.3ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+  Rendered notes/index.html.haml within layouts/application (37.6ms)
+Completed 500 Internal Server Error in 43ms
+
+ActionView::Template::Error (undefined method `ime_ago_in_words' for #<#<Class:0x007fae3c7653a8>:0x007fae3c5ed958>):
+     5: 				%a{ href: (url_for [note])}
+     6: 					.note
+     7: 						%p.title= note.title
+     8: 						%p.date= ime_ago_in_words(note.created_at)
+     9: 		- else
+    10: 			%h2 Add a note
+    11: 			%p No Notes Created yet! Please Start creating one beloe
+  app/views/notes/index.html.haml:8:in `block in _app_views_notes_index_html_haml__2181199315279706007_70193156921820'
+  app/views/notes/index.html.haml:4:in `_app_views_notes_index_html_haml__2181199315279706007_70193156921820'
+
+
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.5ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.8ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (56.7ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (33.3ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (70.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-22 14:53:18 +0700
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Processing by NotesController#index as HTML
+  [1m[35mNote Load (0.4ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+  Rendered notes/index.html.haml within layouts/application (10.6ms)
+Completed 200 OK in 62ms (Views: 60.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-0a8d27b7c7ce09c89ed213e318c82bd1c15213def992a7fb323c7e8281223b6d.css?body=1" for 127.0.0.1 at 2015-04-22 14:53:18 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-04-22 14:53:18 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-22 14:53:18 +0700
+
+
+Started GET "/assets/notes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-04-22 14:53:18 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-04-22 14:53:18 +0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-04-22 14:53:18 +0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-04-22 14:53:18 +0700
+
+
+Started GET "/assets/normalize.css" for 127.0.0.1 at 2015-04-22 14:53:18 +0700
+
+
+Started GET "/notes/4" for 127.0.0.1 at 2015-04-22 14:53:21 +0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered notes/show.html.haml within layouts/application (3.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 60ms (Views: 57.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/normalize.css" for 127.0.0.1 at 2015-04-22 14:53:21 +0700
+
+
+Started GET "/notes/4" for 127.0.0.1 at 2015-04-22 14:55:43 +0700
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mNote Load (0.2ms)[0m  [1mSELECT  "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered notes/show.html.haml within layouts/application (66.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 115ms (Views: 112.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-0a8d27b7c7ce09c89ed213e318c82bd1c15213def992a7fb323c7e8281223b6d.css?body=1" for 127.0.0.1 at 2015-04-22 14:55:43 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-22 14:55:43 +0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-04-22 14:55:43 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-04-22 14:55:43 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-04-22 14:55:43 +0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-04-22 14:55:43 +0700
+
+
+Started GET "/assets/notes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-04-22 14:55:43 +0700
+
+
+Started GET "/assets/normalize.css" for 127.0.0.1 at 2015-04-22 14:55:43 +0700
