@@ -1914,3 +1914,11 @@ Processing by NotesController#show as HTML
 Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.2ms)
   [1m[36mNote Load (0.3ms)[0m  [1mSELECT  "notes".* FROM "notes"  ORDER BY "notes"."id" ASC LIMIT 1[0m
   [1m[35mNote Load (0.4ms)[0m  SELECT  "notes".* FROM "notes"  ORDER BY "notes"."id" DESC LIMIT 1
+
+
+Started GET "/notes" for 127.0.0.1 at 2015-04-22 13:34:24 +0700
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mNote Load (0.2ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+  Rendered notes/index.html.haml within layouts/application (7.8ms)
+Completed 200 OK in 87ms (Views: 69.1ms | ActiveRecord: 1.8ms)
