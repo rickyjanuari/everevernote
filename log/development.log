@@ -2001,3 +2001,67 @@ Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde
 
 
 Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-04-22 13:55:12 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-22 14:18:13 +0700
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Processing by NotesController#index as HTML
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+  Rendered notes/index.html.haml within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (Inconsistent indentation: "  \t" used for indentation, but the rest of the document was indented using 1 tab.):
+    3: %head
+    4: 	%title EVEREVERNOTE | Your Life's Work
+    5: 	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    6:   	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7:   	= csrf_meta_tags
+    8: %body
+    9: 	%header
+  app/views/layouts/application.html.haml:6
+
+
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.6ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (55.1ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (32.7ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (70.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-22 14:18:54 +0700
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Processing by NotesController#index as HTML
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+  Rendered notes/index.html.haml within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (Inconsistent indentation: "  \t" used for indentation, but the rest of the document was indented using 1 tab.):
+    3: %head
+    4: 	%title EVEREVERNOTE | Your Life's Work!
+    5: 	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    6:   	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7:   	= csrf_meta_tags
+    8: %body
+    9: 	%header
+  app/views/layouts/application.html.haml:6
+
+
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.2ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (56.0ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (36.5ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/rickyjanuari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (71.9ms)
